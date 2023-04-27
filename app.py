@@ -16,7 +16,7 @@ logger.setLevel(logging.DEBUG)
 
 # https://chat.openai.com/api/auth/session
 def request_to_rev_openai(query):
-    chatbot = Chatbot(api_key="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")
+    chatbot = Chatbot(api_key="api_key 입력")
     prev_text = ""
     for data in chatbot.ask_stream(prompt=query):
         if isinstance(data, dict):
