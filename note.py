@@ -1,10 +1,8 @@
-import os
 import openai
 
 # Set up your OpenAI GPT-3 credentials
 openai.organization = ""
-openai.api_key = os.getenv("")
-
+openai.api_key = ''
 
 # 이전 대화 내용을 저장할 리스트
 history_message = [
