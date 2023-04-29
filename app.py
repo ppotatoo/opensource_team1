@@ -14,10 +14,10 @@ st.sidebar.info("Chat")
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
-openai.api_key = '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'
+openai.api_key = 'api_key'
 
 def request_to_rev_openai(query):
-    chatbot = Chatbot(api_key="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")
+    chatbot = Chatbot(api_key="api_key")
     prev_text = ""
     for data in chatbot.ask_stream(prompt=query):
         if isinstance(data, dict):
