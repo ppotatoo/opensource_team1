@@ -16,7 +16,7 @@ element = st.empty()
 import chatgpt
 import dalle
 
-openai.api_key = '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'
+openai.api_key = 'api_key'
 
 
 def app_main():
