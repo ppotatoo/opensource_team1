@@ -11,4 +11,7 @@
 - Chatgpt를 활용한 chatbot기능구현
 - Dall-E를 통한 AI 그림 생성 기능 구현
 
-
+### 실행방법
+- app.py, chatgpt.py에 api_key를 할당 받은 api_key 입력
+- 해당 디렉토리에서 터미널창에 'streamlit run app.py' 명령어를 통해 실행
+- 종료는 'Ctrl + C'로 종료
