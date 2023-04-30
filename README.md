@@ -8,8 +8,9 @@
 - 홍지현 (자료 조사 및 ppt만들기)
 
 ### 주요기능
-- Chatgpt를 활용한 chatbot기능구현
-- Dall-E를 통한 AI 그림 생성 기능 구현
+- ChatGPT 활용한 chatbot으로 동화 구현
+- Dall-E를 통한 AI 그림 생성 기능으로 동화 삽화 구현
+- Web app 형식으로 구현(Streamlit 라이브러리 사용)
 
 ### 실행방법
 - app.py, chatgpt.py에 api_key를 할당 받은 api_key 입력
