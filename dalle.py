@@ -1,8 +1,12 @@
 import openai
+import googletrans
 
-def getImage(text):
+translator = googletrans.Translator()
+
+def getImage(user_query):
+    en_title = translator.translate(user_query, src='ko', dest='en').text
     response = openai.Image.create(
-        prompt=text +', digital art',
+        prompt = en_title +', digital art',
         n=1,
         size="256x256"
     )
